@@ -1,0 +1,113 @@
+/* Fonts from Google Fonts - more at https://fonts.google.com */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,700');
+@import url('https://fonts.googleapis.com/css?family=Zen+Kurenaido|Lato');
+
+h2 {
+  background-color: #E7C24F;
+  font-family: 'Zen Kurenaido', sans-serif, serif, cursive;
+  font-size: 58px;
+}
+
+#content {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.home-paragraph {
+  text-align: left;
+  padding: 1em;
+}
+
+body {
+  background-color: #87CEFA;
+  font-family: 'Lato', sans-serif;
+}
+
+nav a {
+  color: #0000FF;
+  font-size: 1.1em;
+  text-decoration: none;
+}
+
+main {
+  background-color: #F8F8FF;
+}
+
+.site-plan-link {
+  color: #0000FF	;
+  font-size: 1.1em;
+}
+
+.banner-box-home img {
+  width: 900px;
+  height: 200px;
+
+}
+
+.home-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 1em;
+}
+
+.home-paragraph {
+  margin: 3px;
+  display: grid;
+  grid-column: 1/5;
+  font-size: x-large;
+}
+
+.home-right-img {
+  display: grid;
+  height: 300px;
+  width: 350px;
+  grid-column: 5/6;
+  
+}
+
+img {
+  max-width: 100%;
+}
+
+nav ul {
+  display: grid;
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(6em, 1fr));
+  margin: 0;
+}
+
+header {
+  align-items: center;
+  display: grid;
+  grid-template-columns: 300px 500px;
+  font-size: large;
+}
+
+a:hover { color: #F8F8FF; }
+
+nav a:hover{
+  background-color: #E7C24F;
+}
+
+footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  line-height: 55px;
+}
+
+.social {
+  grid-column: 5/6;
+}
+
+.general-information {
+  grid-column: 2/4;
+}
+
+@media screen and (max-width: 550px) { 
+    .home-grid, nav ul, .banner-box {
+    display: block;
+  }
+  
+}
